@@ -1,5 +1,5 @@
 # rice_disease_classification
-Utilizing MATLAB's Deep Learning Toolbox, this project offers a comprehensive solution for automatically classifying rice diseases using convolutional neural networks (CNNs). It provides a streamlined pipeline for data preparation, model training, and evaluation, enabling researchers and practitioners to effectively diagnose bacterial leaf blight, leaf smut, and brown spot diseases in rice crops. With an easy-to-use interface and customizable architecture, this tool empowers users to leverage state-of-the-art deep learning techniques for accurate and efficient disease detection in agricultural settings.
+
 
 # Rice Disease Classification
 
