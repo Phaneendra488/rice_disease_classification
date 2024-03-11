@@ -1,9 +1,9 @@
 clear all;
 
 % Define paths to the directories containing images for each class
-bacterialBlightDir = 'C:\Users\ASUS\OneDrive\Desktop\newdataset\bacterial_leaf_blight';
-leafSmutDir = 'C:\Users\ASUS\OneDrive\Desktop\newdataset\leaf_smut';
-brownspotDir = 'C:\Users\ASUS\OneDrive\Desktop\newdataset\brown_spot';
+bacterialBlightDir = 'path\bacterial_leaf_blight';
+leafSmutDir = 'path\leaf_smut';
+brownspotDir = 'path\brown_spot';
 
 % Count the number of images in each directory
 numBacterialBlight = numel(dir(fullfile(bacterialBlightDir, '*.jpg')));
@@ -94,7 +94,7 @@ save('my_model.mat', 'net');
 
 
 % Load a test image
-testImage = imread('C:\Users\ASUS\OneDrive\Desktop\newdataset\brown_spot\DSC_0108.jpg');
+testImage = imread('test_image\path.jpg');
 
 % Preprocess the test image
 processedTestImage = preprocessImage(testImage);
